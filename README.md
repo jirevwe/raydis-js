@@ -1,4 +1,4 @@
-# raydis
+# Raydis
 
 A minimalistic Redis client using modern Node.js
 
@@ -10,6 +10,11 @@ The goal is to write a minimal Redis client that:
 - Uses Promises from the beginning.
 - Written in TypeScript.
 - Learning about the internals of different redis clients.
+
+# Features
+
+- Automatic reconnection
+- Async/Sync operation
 
 # Usage
 
