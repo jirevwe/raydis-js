@@ -1,0 +1,22 @@
+{
+  "name": "raydis",
+  "version": "0.1.0",
+  "description": "Minimalist Typescript Redis CLient",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "start:dev": "nodemon ./run.js",
+    "watch:tsc": "tsc -w -p ./tsconfig.json"
+  },
+  "author": "Raymond Tukpe <rtukpe@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.4",
+    "redis-commands": "^1.6.0",
+    "redis-parser": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.11.2",
+    "typescript": "^3.2.4"
+  }
+}
